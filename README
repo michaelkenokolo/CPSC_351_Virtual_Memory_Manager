@@ -1,3 +1,6 @@
 Author: Michael-Ken Okolo
 Email:  michaelken.okolo1@csu.fullerton.edu
 Program name: Virtual Memory Manager
+
+This program reads from a file containing logical addresses, translates each logical address to its corresponding physical address using a TLB and 
+a page table, and outputs the value of the byte stored at the translated physical address. (size 2^16 = 65,536 bytes).
